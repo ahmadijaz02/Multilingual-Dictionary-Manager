@@ -1,0 +1,15 @@
+2024-12-05 20:52:03 [main] INFO  bl.BusinessLayer - Initializing BusinessLayer with IWordDAO
+2024-12-05 20:52:03 [main] INFO  dal.DalFacade - DalFacade initialized with DAO: dal.DataAccessLayer
+2024-12-05 20:52:03 [AWT-EventQueue-0] INFO  bl.BusinessLayer - Fetching recent searches.
+2024-12-05 20:52:03 [AWT-EventQueue-0] INFO  dal.DalFacade - getRecentSearches() called
+2024-12-05 20:52:03 [AWT-EventQueue-0] INFO  bl.BusinessLayer - Fetched 5 recent searches.
+2024-12-05 20:52:05 [AWT-EventQueue-0] INFO  bl.BusinessLayer - Fetching recent searches.
+2024-12-05 20:52:05 [AWT-EventQueue-0] INFO  dal.DalFacade - getRecentSearches() called
+2024-12-05 20:52:05 [AWT-EventQueue-0] INFO  bl.BusinessLayer - Fetched 5 recent searches.
+2024-12-05 20:52:07 [AWT-EventQueue-0] INFO  bl.BusinessLayer - Adding search to history: العالم
+2024-12-05 20:52:07 [AWT-EventQueue-0] INFO  dal.DalFacade - addSearchToHistory() called with word: 'العالم'
+2024-12-05 20:52:07 [AWT-EventQueue-0] INFO  bl.BusinessLayer - Search added to history: العالم
+2024-12-05 20:52:07 [AWT-EventQueue-0] INFO  bl.BusinessLayer - Searching for word: العالم
+2024-12-05 20:52:07 [AWT-EventQueue-0] INFO  dal.DalFacade - searchWord() called with word: 'العالم'
+2024-12-05 20:52:09 [AWT-EventQueue-0] INFO  bl.BusinessLayer - Segmenting Arabic word: العالم
+2024-12-05 20:52:11 [AWT-EventQueue-0] DEBUG bl.BusinessLayer - Segmentation result: [ال, عالم]
